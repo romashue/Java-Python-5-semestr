@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.SecondTableViewController" spacing="10" alignment="CENTER">
+    <TableView fx:id="secondTableView">
+        <columns>
+            <TableColumn fx:id="nameColumn" text="Name"/>
+            <TableColumn fx:id="yearColumn" text="Year"/>
+            <TableColumn fx:id="genreColumn" text="Genre"/>
+            <TableColumn fx:id="ratingColumn" text="Rating"/>
+        </columns>
+    </TableView>
+    <Button text="Delete Selected" onAction="#deleteSelectedRow" />
+</VBox>
